@@ -15,8 +15,6 @@ section{
     padding: 100px 20vw;
 }
 
-/* Website Colors */
-
 .blue{
     background-color: #3c31dd;
 }
@@ -33,7 +31,6 @@ section{
     background-color: green;
 }
 
-/* Link Colors */
 a:link {
     color: hotpink;
   }
@@ -49,8 +46,6 @@ a:link {
   a:active {
     color: hotpink;
   }
-
-/* Curves */
 
 .curve{
     position: absolute;
@@ -82,7 +77,6 @@ a:link {
     z-index: -1;
 }
 
-/* Curve Img. */
 .layer1{
     background-image: url('layer1.svg');
 }
