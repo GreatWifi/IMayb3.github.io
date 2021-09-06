@@ -15,6 +15,8 @@ section{
     padding: 100px 20vw;
 }
 
+/* Website Colors */
+
 .blue{
     background-color: #3c31dd;
 }
@@ -31,7 +33,7 @@ section{
     background-color: green;
 }
 
-
+/* Link Colors */
 a:link {
     color: hotpink;
   }
@@ -47,6 +49,8 @@ a:link {
   a:active {
     color: hotpink;
   }
+
+/* Curves */
 
 .curve{
     position: absolute;
@@ -78,47 +82,7 @@ a:link {
     z-index: -1;
 }
 
-.bubble::after{
-    content: '';
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    position: absolute;
-    bottom: 0%;
-    height: 85%;
-    width: 100%;
-    background-color: #202731;
-    z-index: -1;
-}
-
-.wave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(154% + 1.3px);
-    height: 374px;
-}
-
-.wave .shape-fill {
-    fill: #202731;
-}
-
-.spacer{
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 1;
-}
-
+/* Curve Img. */
 .layer1{
     background-image: url('layer1.svg');
 }
