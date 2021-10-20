@@ -32,19 +32,19 @@ section{
 }
 
 a:link {
-    color: hotpink;
+    color: rgb(105, 220, 255);
   }
   
   a:visited {
-    color: hotpink;
+    color: rgb(105, 220, 255);
   }
   
   a:hover {
-    color: hotpink;
+    color: rgb(105, 220, 255);
   }
   
   a:active {
-    color: hotpink;
+    color: rgb(105, 220, 255);
   }
 
 .curve{
