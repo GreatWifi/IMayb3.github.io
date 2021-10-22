@@ -19,18 +19,6 @@ section{
     background-color: #3c31dd;
 }
 
-.red{
-    background-color: red;
-}
-
-.pink{
-    background-color: pink;
-}
-
-.green{
-    background-color: green;
-}
-
 a:link {
     color: rgb(105, 220, 255);
   }
@@ -79,4 +67,12 @@ a:link {
 
 .layer1{
     background-image: url('layer1.svg');
+}
+
+.header404{
+    font-family: 'Chango', cursive;
+    font-size: 48px;
+}
+.content404{
+    text-align: center;
 }
